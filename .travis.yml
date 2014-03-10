@@ -6,8 +6,8 @@ python:
 # command to run tests, e.g. python setup.py test
 script:  cd src ; python -m unittest discover -p *.py
 notifications:
-	email:
-		recipients:
-			- swanand@gmail.com
-		on_success: always
-		on_failure: always
+    email:
+        recipients:
+            - swanand@gmail.com
+        on_success: always
+        on_failure: always
