@@ -1,4 +1,4 @@
-fibinacci
+fibonacci
 =========
 
 Toy project to play with Travis
