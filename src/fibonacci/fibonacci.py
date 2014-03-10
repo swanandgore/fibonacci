@@ -21,7 +21,7 @@ class Fibonacci :
 class PrimeTester(unittest.TestCase) :
 	def test_primes(s) :
 		fibo = Fibonacci()
-		s.assertEqual ( fibo.find(1,10) , [1, 1, 2, 3, 5, 8, 13, 21, 34, 12342345235] )
+		s.assertEqual ( fibo.find(1,10) , [1, 1, 2, 3, 5, 8, 13, 21, 34] )
 
 
 if __name__=="__main__" :
